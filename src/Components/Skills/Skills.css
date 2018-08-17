@@ -1,0 +1,140 @@
+.skills {
+	
+
+	height:100%;
+	width: 100%;
+	display: flex;
+	background-image: linear-gradient(to right, #040719, #372639, #6c4450, #9b695f, #bc986f);
+    margin-left: 89px;
+    box-sizing: border-box;
+      overflow-y: scroll;
+
+     
+    
+    }
+
+
+@media (max-width: 940px) {
+  .skills {
+    padding-top: 89px;
+    margin-left: 0;
+    width: 100%;
+   
+  }
+}
+
+.container {
+
+	width:100%;
+	
+  
+}
+
+.card {
+  
+  width:100%;
+ 
+  padding-top:3%;
+  padding-bottom:1%;
+  display: flex;
+  justify-content: center;
+
+}
+
+.cardcontent {
+  width:90%;
+  padding-right: 3%;
+  padding-left: 3%;
+  padding-bottom: 3%;
+  background-color: rgba(255,255,255,0.2);
+
+}
+
+
+.groupImage {
+  padding-top:3%;
+  display:flex;
+
+  flex-flow:row;
+     display:flex;
+    flex-wrap: wrap;
+
+
+}
+
+.imgContainer {
+
+display:flex;
+flex-flow:column;
+color:white;
+margin-left: 2%;
+margin-right: 2%;
+ align-items: center;
+
+
+}
+
+.img {
+
+  width:150px;
+  height:150px;
+ 
+
+}
+
+@media (max-width: 420px) {
+.img {
+    width:70px;
+  height:70px;
+
+}
+
+h4 {
+  font-size: 17px;
+  text-align: center;
+
+}
+
+.imgContainer {
+  width:70px;
+    margin-left: 0;
+margin-right: 0;
+font-size: 10px;
+}
+}
+
+
+
+@media (max-width: 260px) {
+  .skills {
+    padding-top: 65px;
+
+  }
+.img {
+    width:40px;
+  height:40px;
+
+
+}
+
+h4 {
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.imgContainer {
+  width:45px;
+  font-size:8px;
+  min-width:none;
+  margin-left: 0;
+margin-right: 0;
+}
+  
+}
+
+
+
+
+
+

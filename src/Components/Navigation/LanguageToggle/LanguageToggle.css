@@ -1,0 +1,56 @@
+.selector {
+	
+display: flex;
+flex-wrap: wrap;
+}
+
+.container {
+}
+
+.language1 {
+	 padding: 0.1rem 1rem;
+       margin-left: 15%;
+}
+
+.language2 {
+	padding: 0.1rem 0.58rem;
+    margin-left: 25%;
+}
+button {
+    display: inline-block;
+    border: none;
+    padding: 0.1rem 1rem;
+    margin: 0;
+    text-decoration: none;
+    background: #cda77c;
+    color: #ffffff;
+    font-family: sans-serif;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    transition: background 250ms ease-in-out, 
+                transform 150ms ease;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    margin-top: 3px;
+    border-radius: 2px;
+}
+
+button:hover {
+    background: #ffc185;
+}
+
+button:focus {
+    outline: 1px solid #fff;
+    outline-offset: -3px;
+}
+
+button:active {
+    transform: scale(0.99);
+}
+
+@media (max-width: 940px) {
+  .container {
+
+  }
+}

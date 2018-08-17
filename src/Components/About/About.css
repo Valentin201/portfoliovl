@@ -1,0 +1,201 @@
+
+.about {
+	
+	height: 100%;
+	width: 100%;
+	box-sizing: border-box;
+	background-image: linear-gradient(to right, #040719, #372639, #6c4450, #9b695f, #bc986f);
+    background-position: center;
+      margin-left: 89px;
+    
+	overflow-y: scroll;
+
+    
+}
+
+
+.container {
+	
+height: 100%;
+display: flex;
+flex-direction: column;
+justify-content: center;
+
+
+ }
+
+
+.presentation {
+
+margin:3%;
+display: flex;
+justify-content: center;
+}
+
+.aboutme {
+padding-top: 4%;
+width: 40%;
+
+}
+
+
+
+.text {
+
+	font-size: 6px;
+	padding:2%;
+	color:white;
+
+}
+
+.AnimatedComputerlogo {
+padding-left: 5%;
+
+height:40%;
+
+width:40%;
+
+
+
+}
+
+.particule {
+	width:100%;
+	height:100%;
+	position: absolute;
+	
+}
+
+
+.button {
+
+	color: #bc986f; 
+	background: transparent;
+	border: 2px solid #FFC491;
+	border-radius: 6px; 
+	  
+      color: white;
+      padding: 9px 26px;
+      text-align: center;
+      display: inline-block;
+      font-size: 15px;
+      margin: 3px 1px;
+      -webkit-transition-duration: 0.4s; /* Safari */
+      transition-duration: 0.4s;
+   		margin-left: 4%;
+    
+      
+
+} 
+
+
+ .button:hover {
+      background-color: #bc986f;
+      color: white;
+ }
+
+	@media (max-width: 1599px) {
+		.text {
+			font-size: 16px;
+		}
+	}
+
+@media (min-width: 1600px) {
+		.text {
+			font-size: 23px;
+		}
+	}
+
+@media (max-width: 660px) {
+	.AnimatedComputerlogo {
+		display: none;}
+	.aboutme {
+		width:100%;
+	}
+.buttons {
+
+	display: flex;
+	flex-direction: column;
+
+
+
+	}
+
+}
+@media (max-width: 940px) {
+  .about {
+    padding-top:89px;
+    margin-left: 0;
+    width: 100%;
+
+   
+  }
+
+  .aboutme {
+  	padding-top: 0;
+  	width:100%;
+
+  }
+
+  	.text {
+		font-size: 20px;
+		height:100%;
+		font-color:white;
+	}
+.AnimatedComputerlogo {
+	display: none;
+}
+
+.presentation {
+	height:100%;
+}
+h1 {
+	font-size: 5.5vw;
+	display: flex;
+	
+	justify-content: center;
+}
+}
+
+@media (max-width: 470px) {
+  .about {
+    padding-top: 80px;
+
+  }
+h1 {
+	font-size: 8vw;
+	display: flex;
+	justify-content: center;
+
+
+}
+.presentation {
+	height:100%;
+}
+
+.container {
+
+	height:100%;
+	display: flex;
+	flex-direction:column;
+}
+.AnimatedComputerlogo {
+display:none;
+}
+.aboutme {
+	
+	margin-top: 7%;
+	height:80%;
+	width:100%;
+
+}
+
+
+	.text {
+		font-size: 20px;
+		height:100%;
+		font-color:white;
+	}
+
+}
+

@@ -1,0 +1,26 @@
+{
+  "content1": ["Burger Builder permet de personnaliser son hamburger en choisissant les ingrédients et de créer une commande qui est enregistrée sur le compte de l'utilisateur.",
+  	"Burger Builder App creates customizable hamburgers by choosing all the ingredients inside dynamically by using React/Redux.  It also calculate the price, orders, and transfers it to the back-end and data-base."],
+
+   "content2": ["Face Detector détecte les visages en utilisant une API et React/Redux. Après inscription le nombre de photos scannées est enregistré pour la prochaine utilisation.",
+  	"The Face Detector app can detect faces in any photos dynamically by using React/Redux and the clarify API. An authentification form is also used and fully functionnal."],
+
+    "content3": ["Robot Friend permet de rechercher dynamiquement par nom, mail et adresse les personnages à chaque lettre inscrite sans utiliser de database.",
+  	"Robot Friends is a component research that find component in real time regarding each character entered in the search bar by using react and a local state."],
+
+  	 "content4": ["Plutôt que d'utiliser un CMS ou un template j'ai codé mon portfolio entiérement avec React/redux, CSS3 et firebase.",
+  	"Instead of using a CMS i've chosen to hardcode my portoflio by using my front-end and back-end skills, no template have been, everything is coded with React/Redux and CSS only."],
+
+  	 "underTitle1": ["Burger personnalisé","Customizable Burgers App"],
+
+  	 "underTitle2": ["Detection Faciale","Face Detection in photos"],
+
+  	 "underTitle3": ["Recherche dynamique","Dynamic Research App"],
+
+  	 "underTitle4": ["Portfolio codé 'from scratch' ","My portfolio coded from scratch"],
+
+
+	 "button": ["En savoir plus","See more"]
+
+
+}

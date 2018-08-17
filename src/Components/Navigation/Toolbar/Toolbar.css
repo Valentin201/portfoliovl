@@ -1,0 +1,44 @@
+.Toolbar {
+	position: absolute;
+	top: 0;
+	border-color: black;
+	height: 100%;
+	width: 90px;
+
+	display: flex;
+    align-items: center;
+    justify-content: center;
+    border-right:2px solid white;
+	box-sizing: border-box;
+	background-color: #222845;
+  
+}
+
+@media (max-width: 940px) {
+  .Toolbar {
+  	height: 89px;
+  	width: 100%;
+  	display: flex;
+  	flex-flow: column;
+    border-bottom: 2px solid white;
+    border-right: none;
+   
+  }
+}
+
+@media (max-width: 490px) {
+    .Toolbar {
+           height: 75px;
+           width: 100%;
+        
+    }
+}
+
+@media (max-width: 250px) {
+    .Toolbar {
+           height: 60px;
+           width: 100%;
+        
+    }
+}
+
