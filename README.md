@@ -1,1 +1,4 @@
-This is my portoflio coded with react and CSS3, Vivus JS and bootstrap. Fully responsive works on any size of screen and all mobiles. 
+- This is my portoflio coded with react and CSS3, Vivus JS and bootstrap. 
+- All text can be translated inside components so the whole page isn't realoaded each time. 
+- Fully responsive works on any size of screen and all mobiles. 
+- I have used Vivus JS and illustrator to create a one stroke SVG file to create the animated letters.
